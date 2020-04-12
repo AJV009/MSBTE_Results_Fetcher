@@ -10,7 +10,7 @@ $ pip install colorama pandas pyinstaller pytest-timeit pywin32 lxml openpyxl
 
 ## Usage
 ```bash
-$ python msbte_res.py --from_seat="407515" --to_seat="407517" --export_file_name="dataout1"
+$ python msbte_res.py --from_seat="407517" --to_seat="407520" --export_file_name="dataout1"
 ```
 
 ## Using pyinstaller to compile
