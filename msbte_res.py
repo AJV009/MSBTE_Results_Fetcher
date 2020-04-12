@@ -11,9 +11,6 @@ def res_loop(sample="407517",
     Description:
     Takes in a range of seat number then exports marks to a excel file!
     
-    usage:
-    fire-res --<flag_with_val>
-    
     Flags:
     --sample="<seat_number>"          =  give a working seat number with the perfect format of results!
     --from_seat="<seat_number>"       =  From seat number (for looping through)
