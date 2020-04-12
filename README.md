@@ -1,4 +1,4 @@
-# MSBTE_Result_Formater
+# MSBTE_Result_Fetcher
 A python script to fetch MSBTE polytechnic results and store in a excel file. If the script doesnt work 
 please open a issue. As of now only seat numberare supported. The script will be improved after next SEM end exam.
 
