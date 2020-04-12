@@ -2,7 +2,7 @@
 A python script to fetch MSBTE polytechnic results and store in a excel file. If the script doesnt work 
 please open a issue. As of now only seat numberare supported. The script will be improved after next SEM end exam.
 
-## Installation
+## Dependencies Installation
 ```bash
 $ pip install --upgrade 'setuptools<45.0.0'
 $ pip install colorama pandas pyinstaller pytest-timeit pywin32 lxml openpyxl
@@ -10,6 +10,8 @@ $ pip install colorama pandas pyinstaller pytest-timeit pywin32 lxml openpyxl
 
 ## Usage
 ```bash
+$ git clone https://github.com/AJV009/MSBTE_Results_Fetcher.git
+$ cd MSBTE_Results_Fetcher
 $ python msbte_res.py --from_seat="407517" --to_seat="407520" --export_file_name="dataout1"
 ```
 ### use --help to find more info
