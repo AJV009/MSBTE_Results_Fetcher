@@ -14,7 +14,7 @@ $ git clone https://github.com/AJV009/MSBTE_Results_Fetcher.git
 $ cd MSBTE_Results_Fetcher
 $ python msbte_res.py --from_seat="407517" --to_seat="407520" --export_file_name="dataout1"
 ```
-### use --help to find more info
+### Try --help flag to find more info
 ```bash
 $ python msbte_res.py --help
 INFO: Showing help with the command 'msbte_res.py -- --help'.
