@@ -1,10 +1,8 @@
-import pandas as pd
-import fire
+import pandas as pd, win32com.client as win32, fire
 from colorama import Fore, init
 from os.path import abspath
 from timeit import default_timer as timer
-import win32com.client as win32
-# pip install fire pandas lxml openpyxl
+
 def res_loop(sample="407517",
              from_seat="",
              to_seat="",
