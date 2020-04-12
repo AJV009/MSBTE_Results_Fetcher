@@ -12,6 +12,32 @@ $ pip install colorama pandas pyinstaller pytest-timeit pywin32 lxml openpyxl
 ```bash
 $ python msbte_res.py --from_seat="407517" --to_seat="407520" --export_file_name="dataout1"
 ```
+### use --help to find more info
+```bash
+$ python msbte_res.py --help
+INFO: Showing help with the command 'msbte_res.py -- --help'.
+NAME
+    msbte_res.py - Description: Takes in a range of seat number then exports marks to a excel file!
+SYNOPSIS
+    msbte_res.py <flags>
+DESCRIPTION
+    usage:
+    fire-res --<flag_with_val>
+    
+    Flags:
+    --sample="<seat_number>"          =  give a working seat number with the perfect format of results!
+    --from_seat="<seat_number>"       =  From seat number (for looping through)
+    --to_seat="<seat_number>"         =  To seat number. e.x. till 407518
+    --export_file_name="<file_name>"  =  Only the file name, .xlsx will be added automatically!
+    --help                            =  Display this help!
+
+    e.x. python msbte_res.py --from_seat="407520" --to_seat="407525" --export_file_name="dataout"
+FLAGS
+    --sample=SAMPLE
+    --from_seat=FROM_SEAT
+    --to_seat=TO_SEAT
+    --export_file_name=EXPORT_FILE_NAME
+```
 
 ## Using pyinstaller to compile to a win32 exe file
 
