@@ -23,7 +23,7 @@ def res_loop(sample="407517",
     --export_file_name="<file_name>"  =  Only the file name, .xlsx will be added automatically!
     --help                            =  Display this help!
     
-    e.x. python msbte_res.py --from_seat="407515" --to_seat="407554" --export_file_name="dataout"
+    e.x. python msbte_res.py --from_seat="407520" --to_seat="407525" --export_file_name="dataout"
     '''
     st_time = timer()
     init()
