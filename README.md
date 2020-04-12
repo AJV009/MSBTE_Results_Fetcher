@@ -26,4 +26,7 @@ $ pyinstaller --hidden-import='pkg_resources.py2_warn' msbte_res.py
 ```
 Linux users can better create a env and run the script in it!
 
+## NOTE! 
+As of now its only for MSBTE! AND the url is static! (I meant I have placed it in the code, so if you wish to fetch the same type of results but with different URL and stuff, please youll have to make changes in the code. the URL var!)
+
 ### You can contribute by opening issues!
