@@ -22,10 +22,7 @@ NAME
     msbte_res.py - Description: Takes in a range of seat number then exports marks to a excel file!
 SYNOPSIS
     msbte_res.py <flags>
-DESCRIPTION
-    usage:
-    fire-res --<flag_with_val>
-    
+DESCRIPTION    
     Flags:
     --sample="<seat_number>"          =  give a working seat number with the perfect format of results!
     --from_seat="<seat_number>"       =  From seat number (for looping through)
